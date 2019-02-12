@@ -1,0 +1,25 @@
+2017.09.14
+Load packed numpy audioset feature
+q.kong@surrey.ac.uk
+----------------------------
+
+def load_data(hdf5_path):
+    with h5py.File(hdf5_path, 'r') as hf:
+        x = hf.get('x')
+        y = hf.get('y')
+        video_id_list = hf.get('video_id_list')
+        x = np.array(x)
+        y = list(y)
+        video_id_list = list(video_id_list)
+        
+    return x, y, video_id_list
+
+def uint8_to_float32(x):
+    return (np.float32(x) - 128.) / 128.
+    
+def bool_to_float32(y):
+    return np.float32(y)
+
+(x, y, video_id_list) = load_data(cfg.bal_train_hdf5)
+x = uint8_to_float32(x)		# shape: (N, 10, 128)
+y = bool_to_float32(y)		# shape: (N, 527)

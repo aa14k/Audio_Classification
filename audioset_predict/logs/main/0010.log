@@ -1,0 +1,2 @@
+Mon, 03 Dec 2018 18:01:27 main.py[line:211] INFO /home/audioset/audioset-classification/audioset_classify/keras/main.py
+Mon, 03 Dec 2018 18:01:27 main.py[line:212] INFO Namespace(balance_type='balance_in_batch', data_dir='./packed_features/', filename='main', learning_rate=0.001, mini_data=False, mode='train', model_type='decision_level_multi_attention', workspace='')

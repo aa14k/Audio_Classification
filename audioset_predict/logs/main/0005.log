@@ -1,0 +1,10 @@
+Thu, 29 Nov 2018 17:26:09 main.py[line:211] INFO /home/audioset/audioset-classification/audioset_classify/keras/main.py
+Thu, 29 Nov 2018 17:26:09 main.py[line:212] INFO Namespace(balance_type='balance_in_batch', data_dir='./packed_features/', filename='main', learning_rate=0.001, mini_data=False, mode='train', model_type='decision_level_multi_attention', workspace='')
+Thu, 29 Nov 2018 17:26:15 core.py[line:117] INFO Loading data time: 5.409 s
+Thu, 29 Nov 2018 17:26:15 core.py[line:118] INFO Training data shape: (2063949, 10, 128)
+Thu, 29 Nov 2018 17:26:25 core.py[line:165] INFO ------------------
+Thu, 29 Nov 2018 17:26:25 core.py[line:169] INFO Iteration: 0, train time: 10.186 s
+Thu, 29 Nov 2018 17:26:25 core.py[line:171] INFO Balance train statistics:
+Thu, 29 Nov 2018 17:26:53 core.py[line:64] INFO mAP: 0.005913, AUC: 0.496885, Callback time: 28.319 s
+Thu, 29 Nov 2018 17:26:53 core.py[line:180] INFO Test statistics:
+Thu, 29 Nov 2018 17:27:18 core.py[line:64] INFO mAP: 0.005862, AUC: 0.495446, Callback time: 24.964 s

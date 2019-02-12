@@ -1,0 +1,3 @@
+Wed, 12 Dec 2018 20:33:23 main.py[line:211] INFO /home/stride/audioset_predict/keras/main.py
+Wed, 12 Dec 2018 20:33:23 main.py[line:212] INFO Namespace(balance_type='balance_in_batch', data_dir='./packed_features/', filename='main', learning_rate=0.001, mini_data=False, mode='train', model_type='decision_level_multi_attention', workspace='')
+Wed, 12 Dec 2018 20:33:53 core.py[line:144] INFO Test statistics:
